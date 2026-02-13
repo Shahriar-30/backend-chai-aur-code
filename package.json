@@ -1,0 +1,21 @@
+{
+  "name": "videobackend",
+  "version": "1.0.0",
+  "description": "backend learning",
+  "keywords": [
+    "javascript",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "author": "shariar amin al siphat",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
+    
+  }
+}
