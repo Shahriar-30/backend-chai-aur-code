@@ -1,9 +1,8 @@
 class apiRes {
-  constructor(statusCode, message, data) {
-    this.statusCode = statusCode;
+  constructor(message, data) {
     this.message = message;
     this.data = data;
-    this.success = statusCode < 400;
+    this.success = true;
   }
 }
 

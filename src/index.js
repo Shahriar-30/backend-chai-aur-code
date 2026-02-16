@@ -1,5 +1,5 @@
 import "dotenv/config";
-import connectDB from "./datebase/index.js";
+import connectDB from "./database/index.js";
 import { app } from "./app.js";
 
 connectDB()

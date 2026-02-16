@@ -10,7 +10,7 @@ let userSchema = new mongoose.Schema(
         ref: "Video",
       },
     ],
-    username: {
+    userName: {
       type: String,
       required: true,
       unique: true,
